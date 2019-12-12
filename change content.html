@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+</style>
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+$(document).ready(function(){
+//alert("hii");
+$("#d1").click(function(){
+var v=$("#d2").text();
+$("#d1").text(v);
+});
+$("#d2").click(function(){
+var s=$("#d1").text();
+$("#d2").text(s);
+});
+});
+</script>
+</head>
+<body>
+<div id="d1"style="text-align:center;background-color:yellow;width:200px;height:100px;padding:10px;font-size:50px;">
+ Hello
+</div>
+<div id="d2"style="text-align:center;background-color:green;width:200px;height:100px;padding:10px;font-size:50px;float:left;margin-top:10px;">
+Dinesh
+</div>
+
+</body>
+</html>
